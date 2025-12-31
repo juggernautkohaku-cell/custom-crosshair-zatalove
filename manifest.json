@@ -6,7 +6,10 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["https://miniblox.io/*"],
+      "matches": [
+        "https://miniblox.io/*",
+        "https://miniblox.online/*"
+      ],
       "js": ["content.js"]
     }
   ],
@@ -15,5 +18,6 @@
   },
   "host_permissions": ["https://miniblox.io/*"]
 }
+
 
 
