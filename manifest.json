@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Miniblox Custom Crosshair",
+  "name": "Miniblox-Custom-Crosshair-zatalove",
   "version": "1.0",
-  "description": "Adds a customizable crosshair with color sliders for Miniblox by Not_Senpai.",
+  "description": "Forked custom-crosshair",
   "permissions": ["storage"],
   "content_scripts": [
     {
@@ -16,7 +16,12 @@
   "icons": {
     "128": "wsg.png"
   },
-  "host_permissions": ["https://miniblox.io/*"]
+  "host_permissions": [
+    "https://miniblox.io/*",
+    "https://miniblox.online/*",
+    "https://miniblox.org/*",
+    "https://raw.githubusercontent.com/*"
+  ]
 }
 
 
