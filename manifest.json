@@ -14,7 +14,7 @@
     }
   ],
   "icons": {
-    "128": "cross-hair-icon.png"
+    "128": "cross-hair.png"
   },
   "host_permissions": [
     "https://miniblox.io/*",
