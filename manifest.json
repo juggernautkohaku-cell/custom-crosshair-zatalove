@@ -18,7 +18,7 @@
   },
   "host_permissions": ["https://miniblox.io/*",
     "https://miniblox.online/*",
-    "https://miniblox.org/*",]
+    "https://miniblox.org/*"]
 }
 
 
